@@ -237,31 +237,43 @@
 
     * 使用 select + default 实现非阻塞的channel通信
 
-- [ ] Closing Channels
-- [ ] Range over Channels
-- [ ] Timers
-- [ ] Tickers
-- [ ] Worker Pools
-- [ ] Rate Limiting
+- [x] Closing Channels
+
+    - 当close了一个channel后，从channel中获取数据时，返回值的第二个值代表channel是否已经关闭
+
+- [x] Range over Channels
+
+    - range 和 channel的close搭配使用
+
+- [x] Timers
+- [x] Tickers
+- [x] Worker Pools
+- [x] Rate Limiting
+
+    - time.Tick 和 channel 实现速率控制
+
 - [ ] Atomic Counters
+
+    - 了解 `"sync/atomic"`
+    - runtime.Gosched()
+
 - [ ] Mutexes
 - [ ] Stateful Goroutines
 - [ ] Sorting
 - [ ] Sorting by Functions
-- [ ] Panic
-- [ ] Defer
-- [ ] Collection Functions
-- [ ] String Functions
-- [ ] String Formatting
-- [ ] Regular Expressions
-- [ ] JSON
-- [ ] Time
+- [x] Panic
+- [x] Defer
+- [x] Collection Functions
+- [x] String Functions
+- [x] String Formatting
+- [x] Regular Expressions
+- [x] JSON
 - [ ] Epoch
 - [ ] Time Formatting / Parsing
 - [ ] Random Numbers
 - [ ] Number Parsing
-- [ ] URL Parsing
-- [ ] SHA1 Hashes
+- [x] URL Parsing
+- [x] SHA1 Hashes
 - [ ] Base64 Encoding
 - [ ] Reading Files
 - [ ] Writing Files
