@@ -261,20 +261,19 @@
 - [ ] Stateful Goroutines
 - [ ] Sorting
 - [ ] Sorting by Functions
-- [ ] Panic
-- [ ] Defer
-- [ ] Collection Functions
-- [ ] String Functions
-- [ ] String Formatting
-- [ ] Regular Expressions
-- [ ] JSON
-- [ ] Time
+- [x] Panic
+- [x] Defer
+- [x] Collection Functions
+- [x] String Functions
+- [x] String Formatting
+- [x] Regular Expressions
+- [x] JSON
 - [ ] Epoch
 - [ ] Time Formatting / Parsing
 - [ ] Random Numbers
 - [ ] Number Parsing
-- [ ] URL Parsing
-- [ ] SHA1 Hashes
+- [x] URL Parsing
+- [x] SHA1 Hashes
 - [ ] Base64 Encoding
 - [ ] Reading Files
 - [ ] Writing Files
