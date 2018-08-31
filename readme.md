@@ -258,8 +258,12 @@
     - runtime.Gosched()
 
 - [ ] Mutexes
-- [ ] Stateful Goroutines
-- [ ] Sorting
+
+    - 对临界区加锁
+    - 如何在routinues之间安全地读写数据
+
+- [x] Stateful Goroutines
+- [x] Sorting
 - [ ] Sorting by Functions
 - [x] Panic
 - [x] Defer
@@ -280,8 +284,26 @@
 - [ ] Line Filters
 - [ ] Command-Line Arguments
 - [ ] Command-Line Flags
-- [ ] Environment Variables
+- [x] Environment Variables
 - [ ] Spawning Processes
 - [ ] Exec'ing Processes
 - [ ] Signals
 - [ ] Exit
+
+TCP/UDP
+
+Golang goroutines
+
+进程/线程
+
+Git
+
+算法
+
+Redis
+
+数据库 Mysql/MongoDB
+
+Linux的网络编程
+
+脚本语言和编译型语言的差别
